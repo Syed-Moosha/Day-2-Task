@@ -32,7 +32,7 @@ by a window like this window.document.title
    Window   :- Properties of Window object cannot be accessed by the document object.
 
 
-Abbriabbreviations
+Abbreviations
 ******************
 
 BOM == Browser Object Model
