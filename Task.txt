@@ -1,0 +1,45 @@
+In my view on diffrence between document and window objects 
+***********************************************************
+
+==> Document and window objects are fundamental components of the Document Object Model (DOM), 
+which represents the structure of HTML documents and how they can be manipulated.
+
+==> Document object primarily deals with the content and structure of the web page, 
+Window object deals with the browser environment and provides access to browser-related functionalities. 
+
+i.e.The window object represents a window/tab containing a DOM document,
+where as document object is property of window object that points to the DOM document loaded in that window.
+You can access a document object either using window.document property or using document object directly as window is global object
+
+==> Both are essential for building dynamic and interactive web applications.
+
+MAJOR DIFFERENCE BETWEEN DOCUMENT AND WINDOW OBJECT
+****************************************************
+==>Document :- It represent any HTML document or web page that is loaded in the browser.
+   Window   :- It represent a browser window or frame that display the contents of the webpage.
+==>Document :- It is loaded inside the window.
+   Window   :- It is the very first object that is loaded in the browser.
+==>Document :- It is the object of the window property.
+   Window   :- It is the object of browser
+==>Document :- All the tags, elements with attributes in HTML are part of the document.
+   Window   :- Global objects, functions and variables of JavaScript are member of the window object.
+==>Document :- We can access the document from a Window using the window.document
+   Window   :- We can access the Window from the Window only. i.e window.window
+==>Document :- The document is part of BOM and DOM
+   Window   :- The Window is part of BOM, not DOM 
+==>Document :- Properties of document objects such as title, body, cookies, ect can also be accessed
+by a window like this window.document.title
+   Window   :- Properties of Window object cannot be accessed by the document object.
+
+
+Abbriabbreviations
+******************
+
+BOM == Browser Object Model
+DOM == Document Object Model
+
+
+
+
+
+
